@@ -47,7 +47,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ steps.vars.outputs.owner_lower }}/freenet:latest
+            ghcr.io/${{ steps.vars.outputs.owner_lower }}/bodybuiding:v1.0
           labels: |
             org.opencontainers.image.source=https://github.com/${{ steps.vars.outputs.repo_lower }}
             org.opencontainers.image.description=http server
